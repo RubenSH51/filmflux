@@ -35,7 +35,7 @@ export const MovieGenres = ({apiPath, query='',genres, title}) => {
     }
 
     useEffect(() => {
-        document.title = `${title} / Cinemate`
+        document.title = `${title} / FilmFlux`
       })
 
     function testing()
