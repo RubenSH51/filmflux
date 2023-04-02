@@ -53,116 +53,116 @@ export const MovieGenres = ({apiPath, query='',genres, title}) => {
                 <ul id="genresList" className="bg-gray-300 py-4 px-1 dark:bg-gray-900 gap-2 justify-center items-center flex flex-wrap w-full text-sm font-medium text-gray-900 bg-white  -lg sm:flex dark:bg-gray-700 dark:-gray-600 dark:text-white">
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="vue-checkbox-list" type="checkbox" value="28" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="vue-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Action</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Action" type="checkbox" value="28" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Action" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Action</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="react-checkbox-list" type="checkbox" value="12" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="react-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Adventure</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Adventure" type="checkbox" value="12" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Adventure" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Adventure</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="angular-checkbox-list" type="checkbox" value="16" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="angular-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Animation</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Animation" type="checkbox" value="16" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Animation" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Animation</label>
                         </div>
                     </li>
                     <li className="w-40 dark:-gray-600">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="laravel-checkbox-list" type="checkbox" value="35" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="laravel-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Comedy</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Comedy" type="checkbox" value="35" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Comedy" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Comedy</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="vue-checkbox-list" type="checkbox" value="80" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="vue-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Crime</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Crime" type="checkbox" value="80" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Crime" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Crime</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="react-checkbox-list" type="checkbox" value="99" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="react-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Documentary</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Documentary" type="checkbox" value="99" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Documentary" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Documentary</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="angular-checkbox-list" type="checkbox" value="18" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="angular-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Drama</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Drama" type="checkbox" value="18" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Drama" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Drama</label>
                         </div>
                     </li>
                     <li className="w-40 dark:-gray-600">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="laravel-checkbox-list" type="checkbox" value="10751" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="laravel-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Family</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Family" type="checkbox" value="10751" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Family" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Family</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="vue-checkbox-list" type="checkbox" value="14" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="vue-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fantasy</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Fantasy" type="checkbox" value="14" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Fantasy" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fantasy</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="react-checkbox-list" type="checkbox" value="36" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="react-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">History</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-History" type="checkbox" value="36" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-History" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">History</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="laravel-checkbox-list" type="checkbox" value="27" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="angular-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Horror</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Horror" type="checkbox" value="27" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Horror" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Horror</label>
                         </div>
                     </li>
                     <li className="w-40 dark:-gray-600">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="laravel-checkbox-list" type="checkbox" value="10402" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="laravel-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Music</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Music" type="checkbox" value="10402" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Music" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Music</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="vue-checkbox-list" type="checkbox" value="9648" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="vue-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Mystery</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Mistery" type="checkbox" value="9648" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Mistery" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Mystery</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="react-checkbox-list" type="checkbox"  value="10749" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="react-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Romance</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Romance" type="checkbox"  value="10749" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Romance" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Romance</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="angular-checkbox-list" type="checkbox" value="878" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="angular-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sci-Fi</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-SciFi" type="checkbox" value="878" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-SciFi" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sci-Fi</label>
                         </div>
                     </li>
                     <li className="w-40 dark:-gray-600">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="laravel-checkbox-list" type="checkbox" value="10770" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="laravel-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">TV Movie</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-TVMovie" type="checkbox" value="10770" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-TVMovie" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">TV Movie</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="vue-checkbox-list" type="checkbox" value="53" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="vue-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Thriller</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Thriller" type="checkbox" value="53" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Thriller" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Thriller</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="react-checkbox-list" type="checkbox" value="10752" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="react-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">War</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-War" type="checkbox" value="10752" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-War" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">War</label>
                         </div>
                     </li>
                     <li className="w-40  ">
                         <div className="flex items-center pl-3 dark:bg-gray-800">
-                            <input onChange={(e) => updateGenres(e)} id="angular-checkbox-list" type="checkbox" value="37" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
-                            <label htmlFor="angular-checkbox-list" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Western</label>
+                            <input onChange={(e) => updateGenres(e)} id="genre-Western" type="checkbox" value="37" className="w-4 h-4 text-blue-600 bg-gray-100 -gray-300  focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:-gray-500"/>
+                            <label htmlFor="genre-Western" className="w-24 py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Western</label>
                         </div>
                     </li>
 
