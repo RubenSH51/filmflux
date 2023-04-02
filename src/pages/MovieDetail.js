@@ -24,7 +24,7 @@ export const MovieDetail = (apiPath) => {
   }, [])
 
   useEffect(() => {
-    document.title = `${data.title} / Cinemate`
+    document.title = `${data.title} / FilmFlux`
   })
 
   const image = data.poster_path ?`https://image.tmdb.org/t/p/w500/${data.poster_path}` : backupimage;
