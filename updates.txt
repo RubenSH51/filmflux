@@ -6,3 +6,7 @@
 - Cambiar íconos modo claro/oscuro.
 - Mejorar visibilidad del logo de sherlock en modo oscuro.
 - Footer: enlaces y estilos.
+
+Problemas a resolver:
+
+- de 851px a 1023px la barra de search queda en pantalla rompiendo el header

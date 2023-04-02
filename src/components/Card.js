@@ -12,7 +12,7 @@ export const Card = ({movie}) => {
         <Link to={`/movie/${id}`} className='relative'>
             <img className="rounded-t-lg hover:opacity-70 transition ease-in-out delay-50" src={image} alt="" />
             <span className='absolute top-1 right-0 text-white text-5xl font-bold'>⭐</span>
-            <span id="puntuacionFlotante" className={`absolute top-4 right-4 ${Number(vote_average) < 5 ? "text-red-900" : "text-blue-900"} text-xl font-bold`}>{vote_average}</span>
+            <span id="puntuacionFlotante" className={`absolute top-4 right-4 ${Number(vote_average) < 5 ? "text-red-900" : "text-blue-900"} text-xl font-bold`}>{(Number(vote_average).toFixed(1)).toString()   }</span>
         </Link>
         <div className="p-5">
             <Link to={`/movie/${id}`}>

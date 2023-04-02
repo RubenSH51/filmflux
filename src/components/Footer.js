@@ -8,7 +8,7 @@ export const Footer = () => {
             <div className="mx-auto w-full container p-4 sm:p-6">
                 <div className="md:flex md:justify-between">
                   <div className="mb-6 md:mb-0">
-                      <a href="/" className="flex items-center">
+                      <a href="filmflux" className="flex items-center">
                           <img src={Logo} className="h-8 mr-3" alt="FlowBite Logo" />
                           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FilmFlux</span>
                       </a>
@@ -18,7 +18,7 @@ export const Footer = () => {
                           <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                           <ul className="text-gray-600 dark:text-gray-400 font-medium">
                               <li className="mb-4">
-                                  <a href="/" className="hover:underline">FilmFlux</a>
+                                  <a href="/filmflux" className="hover:underline">FilmFlux</a>
                               </li>
                               <li>
                                   <a href="#" className="hover:underline">Tailwind CSS</a>
