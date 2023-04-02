@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/filmflux/static/css/main.7e16b748.css",
+    "main.js": "/filmflux/static/js/main.08a32a5f.js",
+    "static/media/backupimage.png": "/filmflux/static/media/backupimage.a0d662ef64a50ecc870a.png",
+    "static/media/pageNotFound.webp": "/filmflux/static/media/pageNotFound.d22cf2703da03a007ddd.webp",
+    "index.html": "/filmflux/index.html",
+    "main.7e16b748.css.map": "/filmflux/static/css/main.7e16b748.css.map",
+    "main.08a32a5f.js.map": "/filmflux/static/js/main.08a32a5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e16b748.css",
+    "static/js/main.08a32a5f.js"
+  ]
+}
