@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/filmflux/static/css/main.b646a77e.css",
-    "main.js": "/filmflux/static/js/main.80522706.js",
+    "main.css": "/filmflux/static/css/main.f24b6477.css",
+    "main.js": "/filmflux/static/js/main.00e4b715.js",
     "static/media/backupimage.png": "/filmflux/static/media/backupimage.a0d662ef64a50ecc870a.png",
     "static/media/pageNotFound.webp": "/filmflux/static/media/pageNotFound.d22cf2703da03a007ddd.webp",
     "index.html": "/filmflux/index.html",
-    "main.b646a77e.css.map": "/filmflux/static/css/main.b646a77e.css.map",
-    "main.80522706.js.map": "/filmflux/static/js/main.80522706.js.map"
+    "main.f24b6477.css.map": "/filmflux/static/css/main.f24b6477.css.map",
+    "main.00e4b715.js.map": "/filmflux/static/js/main.00e4b715.js.map"
   },
   "entrypoints": [
-    "static/css/main.b646a77e.css",
-    "static/js/main.80522706.js"
+    "static/css/main.f24b6477.css",
+    "static/js/main.00e4b715.js"
   ]
 }
