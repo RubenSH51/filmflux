@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import { Card } from '../components/Card'
 import { useFetch } from '../hooks/useFetch';
 import { useTitle } from '../hooks/useTitle';
@@ -6,10 +6,7 @@ import { useTitle } from '../hooks/useTitle';
 
 export const MovieList = ({apiPath, title}) => {
 
-  // const [movies, setMovies] = useState([]);
-  //const API_KEY = '8df32093a2bc91dd41568c23ba71135a'
-  //const url_base = 'https://api.themoviedb.org/3/'
-  //  const {data: movies} = useFetch(`${url_base}/${apiPath}?api_key=${API_KEY}&page=1&language=en-US`)
+
   const [page, setPage] = useState('1')
   const {data: movies} = useFetch(apiPath, "", "", page);
   

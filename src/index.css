@@ -9,3 +9,8 @@ main
     min-height: 90vh;
     padding: 10px;
 }
+
+.light
+{
+    background-color: rgb(197, 218, 245);
+}

@@ -1,11 +1,9 @@
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Card } from '../components/Card'
-import { useFetchPerson } from '../hooks/useFetchPerson'
 
-export const MoviesActor = () => {
-    const [page, setPage] = useState('1')
-    const [person, setPerson] = useState("")
+
+export const MoviesActor = () => {  
     const [movies, setMovies] = useState([])
     const [query, setQuery] = useState('');
     const [moviesCantidad, setMoviesCantidad] = useState('')
@@ -80,7 +78,7 @@ export const MoviesActor = () => {
 
         <section className="max-w-7xl mx-auto py-y">
             {moviesCantidad!== '' && 
-            <h2 className="mb-4 text-2xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Total resultados: </span> {moviesCantidad}</h2>
+            <h2 className="my-4  mb-4 text-2xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Total resultados: </span> {moviesCantidad}</h2>
 
             }
             <div className="flex justify-center flex-wrap ">

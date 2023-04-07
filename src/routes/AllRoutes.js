@@ -1,5 +1,5 @@
 import { Routes, Route }  from "react-router-dom"
-import { MovieDetail, MovieList, PageNotFound, Search, MovieGenres, } from "../pages"
+import { MovieDetail, MovieList, PageNotFound, Search, MovieGenres, TermsAndConditions, PrivacyPolicy} from "../pages"
 
 import React from 'react'
 import { MoviesActor } from "../pages/MoviesActor"
@@ -19,6 +19,8 @@ export const AllRoutes = () => {
             <Route path="discover/movie" element={<MovieGenres title="Genres" apiPath="discover/movie" genres />} />
             <Route path="search/person" element={<MoviesActor title="Person" apiPath="search/person" />} />
             <Route path="search" element={<Search apiPath="search/movie"/>} />
+            <Route path="terms-and-conditions" element={<TermsAndConditions />} />
+            <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="*" element={<PageNotFound title="Page Not Found"/>} />
         </Routes>
     </div>
