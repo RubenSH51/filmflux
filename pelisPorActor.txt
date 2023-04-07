@@ -1,0 +1,20 @@
+function getMovies() {
+  // Crea una variable para almacenar la clave de API
+  const apiKey = "8df32093a2bc91dd41568c23ba71135a";
+
+  // Crea una variable para almacenar la URL de la API de MovieDB
+  const url = `https://api.themoviedb.org/3/person/31/movie_credits?api_key=${apiKey}&language=en-US`;
+
+  // Hace una solicitud GET a la API de MovieDB usando fetch()
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      // Filtra las películas de Tom Hanks
+      const tomHanksMovies = data.cast.filter(movie => movie.original_language === "en" && movie.vote_count > 100 && movie.vote_average > 6 && movie.poster_path);
+
+      // Muestra las películas de Tom Hanks en la consola del navegador
+      console.log("Películas de Tom Hanks:");
+      console.log(tomHanksMovies);
+    })
+    .catch(error => console.error(error));
+}

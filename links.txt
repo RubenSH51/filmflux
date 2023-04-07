@@ -19,5 +19,5 @@ https://api.themoviedb.org/3/movie/upcoming?api_key={API_KEY}&language=en-US&pag
 Search:
 https://api.themoviedb.org/3/search/company?api_key={API_KEY}&query={movie_name}&page=1
 
-
+api_key_repuesto = 9bd87845cc04c6b2aa90414e77bc498f
 

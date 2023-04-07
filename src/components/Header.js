@@ -31,7 +31,11 @@ export const Header = () => {
     const query = event.target.search.value;
     event.target.reset();
 
+
     return navigate(`/search?q=${query}`);
+
+
+    
   }
 
 return (
@@ -88,6 +92,9 @@ return (
                 </li>
                 <li>
                   <NavLink to="/movies/upcoming" className={({isActive}) => isActive ? activeClass : inactiveClass}>Upcoming</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/search/person" className={({isActive}) => isActive ? activeClass : inactiveClass}>Person</NavLink>
                 </li>
                 <li>
                   <NavLink to="/discover/movie" className={({isActive}) => isActive ? activeClass : inactiveClass}>Genres</NavLink>

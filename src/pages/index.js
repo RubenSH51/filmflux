@@ -3,4 +3,6 @@ export { MovieList } from "./MovieList"
 export { PageNotFound } from "./PageNotFound"
 export { Search } from "./Search"
 export { MovieGenres } from "./MovieGenres"
-export { Genres } from "./Genres"
+// export { Genres } from "./Genres"
+
+
